@@ -1,3 +1,71 @@
-h1{
-    color: red;
+body{
+    height: 100vh;
+    position: relative;
 }
+ #carplayer {
+    background-image: url(../images/carprin.png);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: center;
+    margin-top: 12%;
+   
+    
+}
+
+#obstaclecar1{
+    background-image: url("../images/car1.png");
+    width: 70%;
+    height: 70%;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    position: relative;
+    margin-left: 26%;   
+}
+#obstaclecar2{
+    background-image: url("../images/car2.png");
+    width: 70%;
+    height: 70%;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    position: relative;
+    left: 37%; 
+    bottom: 40%;  
+}
+
+
+
+     
+      
+#road{
+    position : absolute;
+    background-image: url("../images/road.png");
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    display: block;
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: center center;
+    background-attachment: fixed;
+    animation: roadmove 2s infinite linear;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+@keyframes roadmove{
+0%{background-position: 0 0;}
+100%{background-position: 0 100vh;}
+}
+
