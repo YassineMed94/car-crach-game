@@ -1,67 +1,46 @@
 # Car Dodge game 🚘
 
-# 1. Mvp
+# Key Components:
 
-- A car that can move horizontally on the road.
+# 1: Element Selection:
 
-- Obstacles that move vertically downwards.
+The code begins by selecting various HTML elements using the document.querySelector method. These elements include:
+score: To display the player's score.
+startScreen: The initial screen displayed before the game starts.
+gameArea: The game area where elements are positioned.
+level: An element that can be clicked to set the game level.
 
-- Collision detection between the car and obstacles.
+# 2: Initialization:
 
-- Score tracking based on the distance traveled.
+The game initializes with a player object and a set of keys for controlling the car's movement. The player's initial speed is set to 7, and the score starts at 0.
 
-- End the game when the car collides with an obstacle or gas ending
+# 3: Game Start:
 
-# 2. Milestones
+When the startScreen is clicked, the game initializes. The startScreen is hidden, the gameArea is cleared, and the player's properties are reset.
+Five road lines and a player-controlled car are created and positioned.
+Three enemy cars are created at random positions.
 
+# 5: Collision Detection:
 
-### Milestone 1: Setup and Basic Game Structure
+The onCollision function checks for collisions between the player's car and enemy cars based on their positions.
 
-- Set up the project structure with HTML, CSS, and JavaScript files.
+# 6: Game Over:
 
-- Create a canvas element to render the game.
+The onGameOver function is called when a collision occurs, resulting in the game ending. The startScreen is displayed again, showing the player's score and inviting them to play again.
 
-- Display the road and the car on the canvas.
+# 7: Game Logic:
 
-### Milestone 2: Car Movement and User Input
+The gamePlay function controls the game's core logic.
+The road lines move downward, creating the illusion of the road scrolling.
+Enemy cars move down the screen, and collisions are detected.
+The player's car is controlled using the arrow keys, and its position is updated.
+The player's score is incremented as the game progresses.
+The game uses the requestAnimationFrame to create a continuous game loop.
 
-- Implement car movement using the arrow keys.
+# 8:Keyboard Input:
 
-- Limit the car's movement within the boundaries of the road.
+The code listens for keydown and keyup events, allowing the player to control the car using the arrow keys.
 
-### Milestone 3: Obstacle Generation and Movement
-
-- Generate random obstacles on the road.
-
-- Make the obstacles move vertically downwards.
-
-- Make gas icons on road
-
-### Milestone 4: Collision Detection
-
-- Implement collision detection between the car and obstacles.
-
-- End the game when a collision occurs.
-
-### Milestone 5: Score Tracking and Display
-
-- Track and display the score based on the distance traveled.
-
-- Update the score as the car moves forward.
-
-# Basic Game Functionality
-
-### The Car Dodger Game has the following basic functionality:
-
-- The car can move horizontally on the road using the arrow keys.
-
-- Obstacles will appear randomly on the road and move downwards.
-
-- If the car collides with an obstacle, the game ends.
-
-- The score is based on the distance traveled by the car.
-
-- The game keeps track of the player's high score.
 
 
 
