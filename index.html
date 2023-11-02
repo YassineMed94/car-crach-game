@@ -3,17 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Car Doge Game</title>
-    <link rel="stylesheet" href="./css/main.css">
-    
+    <title>Car Crash</title> 
+    <link href="css/main.css" rel="stylesheet">
 </head>
-
 <body>
-  <div id="road"></div>
-  <div id="carplayer"></div> 
-  <div id="obstaclecar1"></div>
-  <div id="obstaclecar2"></div>
-  <div id="obstaclecar3"></div>
-    <script src="./js/main.js"></script>
+    <div class="carGame">
+        <div class="score"></div>
+        <div class="startScreen">
+            <p>Press here to start <br>
+                </p>
+            <div>
+                <span class="level">
+                    <button id="easy">Start</button>
+                </span>
+            </div>
+        </div>
+        <div class="gameArea"></div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/player.js"></script>
 </body>
 </html>
