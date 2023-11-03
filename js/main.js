@@ -17,7 +17,7 @@ level.addEventListener("click", (e) => {
 });
 
 startScreen.addEventListener("click", () => {
-  // gameArea.classList.remove('hide');
+
   startScreen.classList.add("hide");
   gameArea.innerHTML = "";
   player.start = true;

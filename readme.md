@@ -1,45 +1,56 @@
 # Car Dodge game 🚘
 
-# Key Components:
 
-# 1: Element Selection:
+# Game Description:
+Car Dodge is a fast-paced and addictive 2D racing game that challenges players to control a car along a busy highway while avoiding collisions with other vehicles. The game offers an exciting and challenging experience with simple controls and engaging gameplay.
 
-The code begins by selecting various HTML elements using the document.querySelector method. These elements include:
-score: To display the player's score.
-startScreen: The initial screen displayed before the game starts.
-gameArea: The game area where elements are positioned.
-level: An element that can be clicked to set the game level.
+# Game Objective:
 
-# 2: Initialization:
+The primary objective of Car Dodge is to achieve the highest score possible by maneuvering the player's car safely through the traffic, collecting points, and avoiding collisions with enemy cars.
 
-The game initializes with a player object and a set of keys for controlling the car's movement. The player's initial speed is set to 7, and the score starts at 0.
+# Game Features:
 
-# 3: Game Start:
+## 1-Player Control:
 
-When the startScreen is clicked, the game initializes. The startScreen is hidden, the gameArea is cleared, and the player's properties are reset.
-Five road lines and a player-controlled car are created and positioned.
-Three enemy cars are created at random positions.
+The player controls a car using the arrow keys (Up, Down, Left, Right).
+Use the Arrow Up key to accelerate and Arrow Down to slow down.
+Navigate left and right with the Arrow Left and Arrow Right keys.
 
-# 5: Collision Detection:
+## 2-Road Challenge:
 
-The onCollision function checks for collisions between the player's car and enemy cars based on their positions.
+The game features a scrolling highway with five distinct lanes.
+Road lines and vehicles scroll down the screen, creating a sense of motion and challenge.
 
-# 6: Game Over:
+## 3-Obstacles:
 
-The onGameOver function is called when a collision occurs, resulting in the game ending. The startScreen is displayed again, showing the player's score and inviting them to play again.
+Enemy cars randomly appear on the highway.
+Colliding with an enemy car results in a game over.
+To achieve a high score, players must skillfully dodge these obstacles.
 
-# 7: Game Logic:
+## 4-Scoring:
 
-The gamePlay function controls the game's core logic.
-The road lines move downward, creating the illusion of the road scrolling.
-Enemy cars move down the screen, and collisions are detected.
-The player's car is controlled using the arrow keys, and its position is updated.
-The player's score is incremented as the game progresses.
-The game uses the requestAnimationFrame to create a continuous game loop.
+Players earn points for every second they survive on the highway.
+The player's score is displayed at the top of the game area.
+The goal is to beat your previous high score with each playthrough.
 
-# 8:Keyboard Input:
+# How to Play:
 
-The code listens for keydown and keyup events, allowing the player to control the car using the arrow keys.
+Click on the game's "Start" screen to begin the game.
+
+Control your car by using the arrow keys to move up, down, left, or right.
+
+Navigate your car along the highway, avoiding collisions with enemy cars.
+
+Collect points by staying alive and passing through the moving road lines.
+
+Try to beat your high score with each playthrough.
+
+When you collide with an enemy car, the game ends, and your final score is displayed on the "Game Over" screen.
+
+# link to Play
+https://yassinemed94.github.io/car-crach-game/
+
+
 
 
 
