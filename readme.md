@@ -1,12 +1,12 @@
-# Car Dodge game 🚘
+# Car Crash game 🚘
 
 
 # Game Description:
-Car Dodge is a fast-paced and addictive 2D racing game that challenges players to control a car along a busy highway while avoiding collisions with other vehicles. The game offers an exciting and challenging experience with simple controls and engaging gameplay.
+Car Crash is a fast-paced and addictive 2D racing game that challenges players to control a car along a busy highway while avoiding collisions with other vehicles. The game offers an exciting and challenging experience with simple controls and engaging gameplay.
 
 # Game Objective:
 
-The primary objective of Car Dodge is to achieve the highest score possible by maneuvering the player's car safely through the traffic, collecting points, and avoiding collisions with enemy cars.
+The primary objective of Car Crash is to achieve the highest score possible by maneuvering the player's car safely through the traffic, collecting points, and avoiding collisions with enemy cars.
 
 # Game Features:
 
